@@ -1,0 +1,14 @@
+- Formik :
+npm install formik --save
+
+- Yup
+npm install yup react-yup
+
+- Redux :
+npm install --save redux react-redux
+
+- history :
+npm install --save react-history
+
+- Router
+npm install react-router-dom
