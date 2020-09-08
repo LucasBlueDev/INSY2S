@@ -5,15 +5,14 @@ import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './components/header-footer/NavBar';
 import { dataProducts } from '../data';
 import './styles/App.css';
-import Footer from './components/header-footer/Footer';
+
 import { saveCart } from './lib/actions';
 import Routes from './Routes';
 import UserProfileContextProvider from './lib/UserProfileContext';
 
 const history = createBrowserHistory();
 
-const App = () => {
-    
+const App = () => { 
     const items = useSelector(state => state.items);
     const dispatch = useDispatch();
     const [ category, setCategory ] = useState('fruits');
@@ -47,7 +46,6 @@ const App = () => {
                             setCategory={ setCategory }
                         />
                     </div>
-                    <Footer />
                 </div>
             </UserProfileContextProvider>
         </Router>

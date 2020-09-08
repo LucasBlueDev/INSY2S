@@ -12,3 +12,6 @@ npm install --save react-history
 
 - Router
 npm install react-router-dom
+
+- bootstrap
+npm install react-bootstrap bootstrap
