@@ -15,3 +15,6 @@ npm install react-router-dom
 
 - bootstrap
 npm install react-bootstrap bootstrap
+
+- DotEnv
+npm i -D dotenv-webpack
