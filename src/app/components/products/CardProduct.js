@@ -3,6 +3,7 @@ import ModalProduct from './ModalProduct';
 
 
 const CardProduct = ({ product }) => {
+    console.log("URL CARDPRODUCT= ",process.env.PUBLIC_URL + `/assets/`+ product.category + `/`+ product.image)
     return (
         <div className="col-sm-4">
             <div className="card">

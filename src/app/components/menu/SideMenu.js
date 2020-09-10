@@ -5,7 +5,7 @@ const SideMenu = ({ changeCategory, category }) => {
   const links = [
     { name: "TENNIS", category: "tennis" },
     { name: "RUNNING", category: "running" },
-    { name: "FOOTBALL", category: "foot" },
+    { name: "FOOTBALL", category: "football" },
     { name: "BASKETBALL", category: "basket" },
     { name: "FITNESS-CARDIO", category: "fitness" },
   ];

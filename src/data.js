@@ -6,7 +6,7 @@ const tennis = [
   name: "Raquette",
   price: 180.00,
   unit: "pièce",
-  image: "oignons.png",
+  image: "raquette180.webp",
 },
 {
   ref: "tennis_2",
@@ -52,246 +52,222 @@ const tennis = [
 
 const running = [
 {
-  ref: "legumes_1",
+  ref: "Run_1",
   category: "running",
-  name: "Oignons",
-  price: 0.99,
-  unit: "kg",
-  image: "oignons.png"
+  name: "Chaussures ASICS Homme",
+  price: 109.99,
+  unit: "la paire",
+  image: "chaussures110.webp"
 },
 {
-  ref: "legumes_2",
+  ref: "Run_2",
   category: "running",
-  name: "Poivrons",
-  price: 2.99,
-  unit: "kg",
-  image: "poivrons.png"
+  name: "Chaussures ASICS Femme",
+  price: 89.99,
+  unit: "la paire",
+  image: "chaussf90.webp"
 },
 {
-  ref: "legumes_3",
+  ref: "Run_3",
   category: "running",
-  name: "Radis",
-  price: 3.99,
-  unit: "kg",
-  image: "radis.png"
+  name: "Chaussure enfant T35",
+  price: 29.99,
+  unit: "la paire",
+  image: "chaussenf30.webp"
 },
 {
-  ref: "legumes_4",
-  name: "Tomates",
+  ref: "Run_4",
+  name: "Veste",
   category: "running",
-  price: 3.99,
-  unit: "kg",
-  image: "tomato.png"
+  price: 25.00,
+  unit: "l'unité",
+  image: "verste25.webp"
 },
 {
-  ref: "legumes_5",
-  name: "Brocolis",
+  ref: "Run_5",
+  name: "Sac hydratation",
   category: "running",
-  price: 3.99,
-  unit: "kg",
-  image: "brocoli.png"
+  price: 19.99,
+  unit: "la pièce",
+  image: "sac20.webp"
 },
 {
-  ref: "legumes_6",
-  name: "Aubergines",
+  ref: "Run_6",
+  name: "Ceinture hydratation",
   category: "running",
-  price: 3.99,
-  unit: "kg",
-  image: "aubergine.png"
+  price: 19.99,
+  unit: "l'unité'",
+  image: "ceinture20.webp"
 },
 {
-  ref: "legumes_7",
-  name: "Carottes",
+  ref: "Run_7",
+  name: "Monntre connectée GPS GARMIN",
   category: "running",
-  price: 2.99,
-  unit: "kg",
-  image: "carot.png"
+  price: 159.99,
+  unit: "l'unité",
+  image: "montre159.webp"
 },
 {
-  ref: "legumes_8",
-  name: "Choux",
+  ref: "Run_8",
+  name: "lunettes anti-buée HOOK LAID",
   category: "running",
-  price: 1.99,
-  unit: "kg",
-  image: "chou.png"
+  price: 19.99,
+  unit: "l'unité",
+  image: "lunettes20.webp"
+},
+{
+  ref: "Run_9",
+  name: "écouteurs bluetooth PLANTRONIC",
+  category: "running",
+  price: 19.99,
+  unit: "l'unité",
+  image: "ecout149_99.webp"
 }
 ]; 
 
-const foot = [
+const football = [
 {
-  ref: "fresh_1",
-  category: "foot",
-  name: "Milk",
-  price: 2.99,
+  ref: "foot_1",
+  name: "Ballon Euro 2020",
+  category: "football",
+  price: 19.99,
   unit: "pièce",
-  image: "milk.png"
+  image: "ballon20.webp"
 },
 {
-  ref: "fresh_2",
-  category: "foot",
-  name: "Beurre à tartiner",
-  price: 1.99,
+  ref: "foot_2",
+  name: "Chaussures Homme ADIDAS",
+  category: "football",
+  price: 63.00,
   unit: "pièce",
-  image: "beurre.png"
+  image: "chaussures63.webp"
 },
 {
-  ref: "fresh_3",
-  category: "foot",
-  name: "Oeufs",
-  price: 3.99,
-  unit: "les douzes",
-  image: "eggs.png"
+  ref: "foot_3",
+  name: "Maillot Homme Adidas",
+  category: "football",
+  price: 11.99,
+  unit: "pièce",
+  image: "maillot12.webp"
 },
 {
-  ref: "fresh_4",
-  category: "foot",
-  name: "Yaourts Nature",
-  price: 13.99,
+  ref: "foot_4",
+  name: "Short Homme ADIDAS",
+  category: "football",
+  price: 11.99,
   unit: "pièce",
-  image: "yaourts_nature.png"
+  image: "short12.webp"
 },
 {
-  ref: "fresh_5",
-  category: "foot",
-  name: "Yaourts Fruits",
-  price: 10.19,
+  ref: "foot_5",
+  name: "Protèges Tibias",
+  category: "football",
+  price: 24.99,
   unit: "pièce",
-  image: "yaourts_fruits.png"
+  image: "prot25.webp"
+},
+{
+  ref: "foot_6",
+  name: "Chaussettes Hommme",
+  category: "football",
+  price: 19.99,
+  unit: "pièce",
+  image: "chaussettes5.webp"
 }
 ];  
 
 const basket = [
 {
-  ref: "epicerie_1",
+  ref: "basket_1",
   category: "basket",
-  name: "Thon",
-  price: 2.99,
+  name: "Ballon SPALDING",
+  price: 29.99,
   unit: "pièce",
-  image: "thon.png"
+  image: "ballon30.webp"
 },
 {
-  ref: "epicerie_2",
+  ref: "basket_2",
   category: "basket",
-  name: "Sardines",
-  price: 1.99,
+  name: "Basket Homme NIKE",
+  price: 42.00,
   unit: "pièce",
-  image: "sardines.png"
+  image: "chaussure42.webp"
 },
 {
-  ref: "epicerie_3",
+  ref: "basket_3",
   category: "basket",
-  name: "Cookies",
-  price: 3.99,
+  name: "Maillot Homme",
+  price: 16.00,
   unit: "pièce",
-  image: "cookies.png"
+  image: "maillot16.webp"
 },
 {
-  ref: "epicerie_4",
+  ref: "basket_3",
   category: "basket",
-  name: "Biscottes",
-  price: 5.99,
+  name: "Pantalon Homme",
+  price: 17.99,
   unit: "pièce",
-  image: "biscottes.png"
-},
-{
-  ref: "epicerie_5",
-  category: "basket",
-  name: "Thé",
-  price: 3.59,
-  unit: "pièce",
-  image: "thé.png"
-},
-{
-  ref: "epicerie_6",
-  category: "basket",
-  name: "Soupes",
-  price: 3.59,
-  unit: "pièce",
-  image: "soupe.png"
-},
-{
-  ref: "epicerie_7",
-  category: "basket",
-  name: "Pâtes",
-  price: 3.59,
-  unit: "pièce",
-  image: "pates.png"
+  image: "pantalon18.webp"
 }
 ];
 
 const fitness = [
 {
-  ref: "boissons_1",
+  ref: "fitness_1",
   category: "fitness",
-  name: "Vin Rouge",
-  price: 12.99,
+  name: "Chaussures homme",
+  price: 34.99,
   unit: "pièce",
-  image: "bordeaux.png"
+  image: "chaussures35.webp"
 },
 {
-  ref: "boissons_2",
+  ref: "fitness_2",
   category: "fitness",
-  name: "Vin blanc",
-  price: 11.99,
+  name: "Legging Femme",
+  price: 29.99,
   unit: "pièce",
-  image: "white_wine.png"
+  image: "legging30.webp"
 },
 {
-  ref: "boissons_3",
+  ref: "fitness_3",
   category: "fitness",
-  name: "Riesling",
-  price: 25.99,
+  name: "Step REEBOK",
+  price: 29.99,
   unit: "pièce",
-  image: "riesling.png"
+  image: "step90.webp"
 },
 {
-  ref: "boissons_4",
+  ref: "fitness_4",
   category: "fitness",
-  name: "Coca ",
-  price: 2.49,
+  name: "Veste homme",
+  price: 39.99,
   unit: "pièce",
-  image: "coke.png"
+  image: "sweat40.webp"
 },
 {
-  ref: "boissons_5",
+  ref: "fitness_5",
   category: "fitness",
-  name: "Sprite",
-  price: 1.49,
+  name: "Tapis de fitness",
+  price: 19.99,
   unit: "pièce",
-  image: "sprite.png"
+  image: "tapis20.webp"
 },
 {
-  ref: "boissons_6",
+  ref: "fitness_6",
   category: "fitness",
-  name: "Finley",
-  price: 1.49,
+  name: "Vélo Elliptique",
+  price: 499.99,
   unit: "pièce",
-  image: "finley.png"
+  image: "velo499.webp"
 },
 {
-  ref: "boissons_7",
+  ref: "fitness_7",
   category: "fitness",
-  name: "Nestea",
-  price: 1.19,
+  name: "Vélo d'appartement",
+  price: 249.99,
   unit: "pièce",
-  image: "nestea.png"
+  image: "veloap249.webp"
 },
-{
-  ref: "boissons_8",
-  category: "fitness",
-  name: "Sprite",
-  price: 1.49,
-  unit: "pièce",
-  image: "sprite.png"
-},
-{
-  ref: "boissons_9",
-  category: "fitness",
-  name: "Sprite Zero",
-  price: 1.49,
-  unit: "pièce",
-  image: "sprite_zero.png"
-}
 ];
 
-export const dataProducts = [tennis, running, foot, basket, fitness]
+export const dataProducts = [tennis, running, football, basket, fitness]

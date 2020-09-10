@@ -14,7 +14,7 @@ const history = createBrowserHistory();
 const App = () => { 
     const items = useSelector(state => state.items);
     const dispatch = useDispatch();
-    const [ category, setCategory ] = useState('fruits');
+    const [ category, setCategory ] = useState('tennis');
     const [ isFiltering, setFiltering ] = useState(false);
     const [ filtered, setFiltered ] = useState(false);
 
@@ -31,9 +31,7 @@ const App = () => {
     return (
         <Router history={history}>
             <UserProfileContextProvider>
-
                 <div id='page-container'>
-
                     <div id='content-wrap'>
                         <Navbar 
                             filter={ filterResult } 
