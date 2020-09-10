@@ -4,7 +4,7 @@ body {
     background-size: 105%;
     background-position-y: 25%;
     background-position-x: -100%;
-    margin-left: -350px;
+    margin-right: 23%;
     background-color: rgb(253, 253, 253);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 .container {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -34,8 +34,6 @@ body::-webkit-scrollbar {
   display: inline-block;
   margin: 0 auto;
 }
-
-
 
 .navbar-brand {
   font-family: poppins;
@@ -57,6 +55,8 @@ body::-webkit-scrollbar {
 .bg-light.blue {
   background: #74b1eb!important;
 }
+
+
 
 /* cart */
 .cart {
@@ -97,12 +97,18 @@ table {
 }
 
 /* sidebar */
+
 .sidebar ul {
+  position: fixed;
+margin-left: -3%;
+margin-top: -3%;
   font-size: 1.45em;
   list-style-type: none;
-  margin: 0;
-  padding: 0; 
+
   color: #425ae2!important;
+  min-height: calc(100vh - 50px);
+  background: #74b1eb!important;
+  padding: 2%;
 }
 .sidebar ul li:hover {
   cursor: pointer;
@@ -113,6 +119,7 @@ table {
 #page-container {
   position: relative;
   min-height: 100vh;
+  margin-left: 0px;
 }
 
 
@@ -173,6 +180,7 @@ table {
 }
 .menu-right {
   position: relative;
+  size: 130%;
 }
 .badge {
   position: absolute;
@@ -217,6 +225,8 @@ table {
 .red {
   border: 1px solid rgb(20, 23, 220);
 }
+
+
 
 @media screen and (max-width: 640px) {
   body {

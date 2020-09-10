@@ -4,7 +4,7 @@ import Menu from './views/Menu';
 import CartPage from './views/CartPage';
 import CheckoutPage from './views/CheckoutPage';
 
-const Routes = ({ isFiltering, filtered, dataProducts, category, setCategory }) => {
+const Routes = ({ isFiltering, filtered, dataProducts, category, setCategory, image }) => {
     return (
         <>
              <Route 

@@ -1,10 +1,12 @@
+
+
 const tennis = [
 { ref: "tennis_1",
   category: "tennis",
   name: "Raquette",
   price: 180.00,
   unit: "pièce",
-  image: "raquette180.webp"
+  image: "oignons.png",
 },
 {
   ref: "tennis_2",

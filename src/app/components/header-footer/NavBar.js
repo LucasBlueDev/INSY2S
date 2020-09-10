@@ -26,7 +26,7 @@ const Navbar = ({ filter, setFiltering }) => {
                     <div>
                         <form className="search form-inline my-2 my-lg-0">
                             <input
-                                className="form-control mr-sm-2"
+                                className="form-control mr-sm-1"
                                 type="search"
                                 placeholder="Recherche"
                                 aria-label="Recherche"
@@ -39,7 +39,7 @@ const Navbar = ({ filter, setFiltering }) => {
                     </div>
                     <div className="menu-right">
                         <Link to='/cart'>
-                            <i className="fas fa-shopping-bag fa-2x grey" />
+                            <i className="fas fa-shopping-bag fa-2x dark" />
                             <span className="badge badge-pill badge-success" >{ items.length > 0 && items.length }</span>
                         </Link>
                     </div>

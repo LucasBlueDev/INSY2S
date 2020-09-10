@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './components/header-footer/NavBar';
 import { dataProducts } from '../data';
 import './styles/App.css';
-
 import { saveCart } from './lib/actions';
 import Routes from './Routes';
 import UserProfileContextProvider from './lib/UserProfileContext';
@@ -32,7 +31,9 @@ const App = () => {
     return (
         <Router history={history}>
             <UserProfileContextProvider>
+
                 <div id='page-container'>
+
                     <div id='content-wrap'>
                         <Navbar 
                             filter={ filterResult } 

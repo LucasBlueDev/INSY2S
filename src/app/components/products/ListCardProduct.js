@@ -11,6 +11,7 @@ const ListCardProduct = ({ list }) => {
                         list.map((product, index) => <CardProduct 
                                                         key={index} 
                                                         product={product} 
+    
                                                      /> )
                     :
                         <i className="text-danger">Page non trouvée</i>

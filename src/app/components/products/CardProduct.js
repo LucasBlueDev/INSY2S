@@ -1,6 +1,7 @@
 import React from 'react';
 import ModalProduct from './ModalProduct';
 
+
 const CardProduct = ({ product }) => {
     return (
         <div className="col-sm-4">
@@ -18,7 +19,7 @@ const CardProduct = ({ product }) => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <button 
-                            className="btn btn-warning btn-sm"
+                            className="btn btn-warning btn-sm blue"
                             data-toggle="modal"
                             data-target={ `#${ product.ref }` }
                         >

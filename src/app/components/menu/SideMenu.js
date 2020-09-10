@@ -24,6 +24,7 @@ const SideMenu = ({ changeCategory, category }) => {
         ))}
       </ul>
     </div>
+
   );
 };
 
