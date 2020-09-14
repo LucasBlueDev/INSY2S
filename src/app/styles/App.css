@@ -2,9 +2,9 @@ body {
     margin-top : 100px;
     background-image: url('../../assets/images//background3.png');
     background-size: 105%;
-    background-position-y: 25%;
-    background-position-x: -100%;
-    margin-right: 23%;
+
+    background-position-x: -100%; 
+  
     background-color: rgb(253, 253, 253);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,11 +40,11 @@ body::-webkit-scrollbar {
   text-shadow: blue 2px 2px;
   font-size: 30px;
   font-weight: 700;    
+
 }
 .navbar-brand:hover {
     color: brown;
 }
-
 
 .login {
   display: inline-block;
@@ -55,8 +55,6 @@ body::-webkit-scrollbar {
 .bg-light.blue {
   background: #74b1eb!important;
 }
-
-
 
 /* cart */
 .cart {
@@ -96,32 +94,33 @@ table {
   text-decoration: none;
 }
 
+.row {
+  margin-right: 9%;
+  text-shadow: rgb(255, 255, 255) 0.5px 0.5px;
+}
+
 /* sidebar */
-
-.sidebar ul {
-  position: fixed;
-margin-left: -3%;
-margin-top: -3%;
-  font-size: 1.45em;
-  list-style-type: none;
-
+.sidebar  {
+  position: relative;
+  margin-top: -3%;
+  font-size: 1.50em;
   color: #425ae2!important;
-  min-height: calc(100vh - 50px);
   background: #74b1eb!important;
   padding: 2%;
+  list-style:none;
+  min-height: 1200px;
+  width: 16%;
 }
-.sidebar ul li:hover {
+.sidebar  li:hover {
   cursor: pointer;
   font-weight: bold;
 }
 
-
 #page-container {
-  position: relative;
+  position: absolute;
   min-height: 100vh;
   margin-left: 0px;
 }
-
 
 /* shopping cart */
 .shopping-cart table {

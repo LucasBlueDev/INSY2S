@@ -11,8 +11,8 @@ const SideMenu = ({ changeCategory, category }) => {
   ];
   return (
 
-    <div className="col-sm-2 sidebar">
-      <ul>
+    <div className="sidebar">
+      <span>
         {links.map((link, index) => (
           <li
             className={`${link.category === category && "active"} `}
@@ -22,7 +22,7 @@ const SideMenu = ({ changeCategory, category }) => {
             {link.name}
           </li>
         ))}
-      </ul>
+      </span>
     </div>
 
   );

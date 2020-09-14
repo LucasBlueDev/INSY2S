@@ -16,7 +16,7 @@ const CardProduct = ({ product }) => {
                 <div className="card-body">
                     <div className="d-flex justify-content-around">
                         <h4>{ product.name }</h4>
-                        <p style={{ marginTop:'5px' }}>€{ product.price }/{ product.unit }</p>
+                        <p style={{ marginTop:'5px' }}>{ product.price } €  { product.unit }</p>
                     </div>
                     <div className="d-flex justify-content-center">
                         <button 

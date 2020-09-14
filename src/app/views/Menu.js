@@ -5,7 +5,7 @@ import Store from './../components/menu/Store';
 const Menu = ({ category, changeCategory, dataProducts }) => {
     
     return (
-        <div className="container">
+        <div className="container_row">
             <div className="row">
                 <SideMenu 
                     changeCategory={ changeCategory } 
@@ -14,7 +14,6 @@ const Menu = ({ category, changeCategory, dataProducts }) => {
                 <Store 
                     dataProducts={ dataProducts } 
                     category={ category }
-
                 />
             </div>
         </div>
