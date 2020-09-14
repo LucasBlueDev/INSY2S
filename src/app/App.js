@@ -8,11 +8,7 @@ import "./styles/App.css";
 import { saveCart } from "./lib/actions";
 import Routes from "./Routes";
 import UserProfileContextProvider from "./lib/UserProfileContext";
-<<<<<<< HEAD
-/* import EssaiHello2 from "./components/EssaiHello2";
-=======
 import EssaiHello2 from "./components/EssaiHello2";
->>>>>>> 45fe165f643a2b59188bdc7f2ab592492df49410
 /*  import EssaiHello from "./components/EssaiHello";   */
 
 const history = createBrowserHistory();
@@ -42,7 +38,7 @@ const App = () => {
         <div id="page-container">
           <div id="content-wrap">
             <Navbar filter={filterResult} setFiltering={setFiltering} />
-    {/* <EssaiHello2/>> */}
+{/* <EssaiHello2/>> */}
             <Routes
               isFiltering={isFiltering}
               filtered={filtered}
