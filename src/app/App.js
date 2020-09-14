@@ -8,7 +8,7 @@ import "./styles/App.css";
 import { saveCart } from "./lib/actions";
 import Routes from "./Routes";
 import UserProfileContextProvider from "./lib/UserProfileContext";
-import EssaiHello2 from "./components/EssaiHello2";
+/* import EssaiHello2 from "./components/EssaiHello2";
 /*  import EssaiHello from "./components/EssaiHello";   */
 
 const history = createBrowserHistory();
