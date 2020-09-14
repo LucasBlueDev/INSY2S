@@ -1,7 +1,9 @@
 import React from 'react';
 import ModalProduct from './ModalProduct';
 
+
 const CardProduct = ({ product }) => {
+    console.log("URL CARDPRODUCT= ",process.env.PUBLIC_URL + `/assets/`+ product.category + `/`+ product.image)
     return (
         <div className="col-sm-4">
             <div className="card">
@@ -14,11 +16,11 @@ const CardProduct = ({ product }) => {
                 <div className="card-body">
                     <div className="d-flex justify-content-around">
                         <h4>{ product.name }</h4>
-                        <p style={{ marginTop:'5px' }}>€{ product.price }/{ product.unit }</p>
+                        <p style={{ marginTop:'5px' }}>{ product.price } €  { product.unit }</p>
                     </div>
                     <div className="d-flex justify-content-center">
                         <button 
-                            className="btn btn-warning btn-sm"
+                            className="btn btn-warning btn-sm blue"
                             data-toggle="modal"
                             data-target={ `#${ product.ref }` }
                         >
