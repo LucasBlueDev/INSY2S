@@ -119,7 +119,7 @@ table {
 }
 .sidebar  li:hover {
   cursor: pointer;
-  color: white;
+  color: rgb(102, 100, 230);
 }
 .btnSide {
   height: 30px;
