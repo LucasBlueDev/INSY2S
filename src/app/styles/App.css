@@ -41,9 +41,6 @@ body::-webkit-scrollbar {
   font-weight: 700;    
 
 }
-.navbar-brand:hover {
-    color: brown;
-}
 
 .login {
   display: inline-block;
@@ -104,7 +101,7 @@ table {
 
 .row {
   margin-right: 9%;
-  text-shadow: rgb(255, 255, 255) 0.5px 0.5px;
+  margin-top: 5px;
 }
 
 /* sidebar */
@@ -118,10 +115,11 @@ table {
   list-style:none;
   min-height: 1200px;
   width: 16%;
+  font-weight: bold;
 }
 .sidebar  li:hover {
   cursor: pointer;
-  font-weight: bold;
+  color: white;
 }
 .btnSide {
   height: 30px;

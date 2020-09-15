@@ -7,7 +7,7 @@ const Navbar = ({ filter, setFiltering }) => {
     return (
         <nav className="navbar blue navbar-expand-lg navbar-light bg-light fixed-top">
             <Link to="/" className="navbar-brand crimson">
-                <i className="fas fa-shopping-cart"/> INSYcathlon
+                 INSYcathlon
             </Link>
             <button
                 className="navbar-toggler"

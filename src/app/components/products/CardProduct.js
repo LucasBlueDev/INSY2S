@@ -20,7 +20,7 @@ const CardProduct = ({ product }) => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <button 
-                            className="btn btn-warning btn-sm blue"
+                            className="btn btn-info btn-sm"
                             data-toggle="modal"
                             data-target={ `#${ product.ref }` }
                         >
