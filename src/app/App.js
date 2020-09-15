@@ -38,7 +38,7 @@ const App = () => {
         <div id="page-container">
           <div id="content-wrap">
             <Navbar filter={filterResult} setFiltering={setFiltering} />
-    {/* <EssaiHello2/>> */}
+{/* <EssaiHello2/>> */}
             <Routes
               isFiltering={isFiltering}
               filtered={filtered}

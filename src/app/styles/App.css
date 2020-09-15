@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
   -webkit-box-shadow: 0 0 10px #c2c1c1b0;
   box-shadow: 0 0 10px #c2c1c1b0;
 }
+
 .card img {
   display: inline-block;
   margin: 0 auto;
@@ -39,9 +40,6 @@ body::-webkit-scrollbar {
   font-size: 30px;
   font-weight: 700;    
 
-}
-.navbar-brand:hover {
-    color: brown;
 }
 
 .login {
@@ -61,31 +59,40 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: space-evenly;
 }
+
 table {
   width: 100%;  
 }
+
 .cell {
   text-align: center;
 }
+
 .cart div {
   margin : 0 10px;
 }
+
 .cart p {
   margin-top: 5px;
 }
+
 .cart li {
   flex-grow: 1;
   list-style-type: none;
 }
+
 .cart table th, .cart table tr {
   height: 80px;
 }
+
 .order-summary .list-group-item {
   background: #eee;
 }
+
 .qty {
   width: 40px;
   padding: 5px 0;
+  
 }
 .white, .white:hover {
   color: white;
@@ -94,6 +101,7 @@ table {
 
 .row {
   margin-right: 9%;
+  margin-top: 5px;
 }
 
 /* sidebar */
@@ -107,13 +115,18 @@ table {
   list-style:none;
   min-height: 1200px;
   width: 16%;
-  text-shadow: blue 1px 1px;
+  font-weight: bold;
 }
 .sidebar  li:hover {
   cursor: pointer;
-  Color: blue;
+  color: white;
 }
-
+.btnSide {
+  height: 30px;
+  width: 100px;
+  border-color: #ffffff;
+  border-radius: 50%;
+}
 #page-container {
   position: absolute;
   min-height: 100vh;

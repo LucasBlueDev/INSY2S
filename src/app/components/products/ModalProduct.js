@@ -40,8 +40,7 @@ const ModalProduct = ({ product }) => {
                             </div>
                             <div className="col-sm">
                                 <p className="lead">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore
+                                   { product.detail }
                                 </p>
                                 <h3 className="price">€{ product.price }/{ product.unit }</h3> <br />
                                 <div
