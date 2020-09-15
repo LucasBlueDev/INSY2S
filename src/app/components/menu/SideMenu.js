@@ -9,8 +9,8 @@ const SideMenu = ({ changeCategory, category }) => {
     { name: "BASKETBALL", category: "basket" },
     { name: "FITNESS-CARDIO", category: "fitness" },
   ];
+  
   return (
-
     <div className="sidebar">
       <span>
         {links.map((link, index) => (
